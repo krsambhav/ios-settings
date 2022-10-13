@@ -1,5 +1,6 @@
 import "./App.css";
-import {IoMdAirplane} from 'react-icons/io';
+import { IoMdAirplane } from "react-icons/io";
+import { MdSignalWifi4Bar } from "react-icons/md";
 
 function App() {
   return (
@@ -9,35 +10,43 @@ function App() {
           Settings
         </div>
         <div className="search-bar w-[100%] flex flex-row justify-center mt-5">
-          <input type="text" name="search-bar" id="search-bar" className="w-[90%] bg-[#dedde3] rounded-md text-xs outline-none px-2 py-1"  placeholder="Search"/>
+          <input
+            type="text"
+            name="search-bar"
+            id="search-bar"
+            className="w-[90%] bg-[#dedde3] rounded-md text-xs outline-none px-2 py-1"
+            placeholder="Search"
+          />
         </div>
         <div className="icloud-section w-[90%] mx-auto py-2 rounded-md flex flex-row pl-[15px] mt-5 gap-3 bg-white">
           <div className="image w-[50px] h-[50px]">
-            <img src="https://www.liveabout.com/thmb/D4sWEMjpo8wXqcQJJ5mGbsPBxII=/1500x1200/filters:no_upscale():max_bytes(150000):strip_icc()/peter_2008_v2F_hires1-56a00f083df78cafda9fdcb6.jpg" alt="Jack" className="rounded-full" />
+            <img
+              src="https://www.liveabout.com/thmb/D4sWEMjpo8wXqcQJJ5mGbsPBxII=/1500x1200/filters:no_upscale():max_bytes(150000):strip_icc()/peter_2008_v2F_hires1-56a00f083df78cafda9fdcb6.jpg"
+              alt="Jack"
+              className="rounded-full"
+            />
           </div>
           <div className="name-details">
-          <div className="name w-[90%] font-thin">
-            Peter Griffin
-          </div>
-          <div className="other w-[90%] font-thin text-[10px]">
-            Apple ID, iCloud+, Media & Purchases
-          </div>
+            <div className="name w-[90%] font-thin">Peter Griffin</div>
+            <div className="other w-[90%] font-thin text-[10px]">
+              Apple ID, iCloud+, Media & Purchases
+            </div>
           </div>
         </div>
         <div className="first-row w-[90%] h-[200px] bg-white mx-auto mt-3 rounded-md font-thin text-xs flex flex-col gap-1 pl-3 pt-2">
-          <div className="row flex flex-row gap-2 items-center">
-            <div className="icon">
-            <IoMdAirplane />
+          <div className="row flex flex-col gap-2 items-center w-[100%]">
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <IoMdAirplane />
+              </div>
+              <div className="text">Airplane Mode</div>
             </div>
-            <div className="text">
-            Airplane Mode
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <MdSignalWifi4Bar />
+              </div>
+              <div className="text">WiFi</div>
             </div>
-          </div>
-          <div className="row">
-            Wi-Fi
-          </div>
-          <div className="row">
-            Bluetooth
           </div>
         </div>
       </div>
