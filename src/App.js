@@ -23,6 +23,17 @@ function App() {
           </div>
           </div>
         </div>
+        <div className="first-row w-[90%] h-[200px] bg-white mx-auto mt-3 rounded-md font-thin text-xs flex flex-col gap-1 pl-3 pt-2">
+          <div className="row">
+            Airplane Mode
+          </div>
+          <div className="row">
+            Wi-Fi
+          </div>
+          <div className="row">
+            Bluetooth
+          </div>
+        </div>
       </div>
     </div>
   );
