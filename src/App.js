@@ -12,11 +12,11 @@ function App() {
         </div>
         <div className="icloud-section w-[100%] flex flex-row pl-[15px] mt-5 gap-3">
           <div className="image w-14">
-            <img src="https://www.kumarsambhav.me/static/media/memoji.e287bb88e62f389a80ef.jpeg" alt="Jack" className="rounded-full" />
+            <img src="https://www.liveabout.com/thmb/D4sWEMjpo8wXqcQJJ5mGbsPBxII=/1500x1200/filters:no_upscale():max_bytes(150000):strip_icc()/peter_2008_v2F_hires1-56a00f083df78cafda9fdcb6.jpg" alt="Jack" className="rounded-full" />
           </div>
           <div className="name-details">
           <div className="name w-[90%] font-thin">
-            Jack's iPhone
+            Peter Griffin
           </div>
           <div className="other w-[90%] font-thin text-[10px]">
             Apple ID, iCloud+, Media & Purchases
