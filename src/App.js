@@ -1,4 +1,5 @@
 import "./App.css";
+import {IoMdAirplane} from 'react-icons/io';
 
 function App() {
   return (
@@ -24,8 +25,13 @@ function App() {
           </div>
         </div>
         <div className="first-row w-[90%] h-[200px] bg-white mx-auto mt-3 rounded-md font-thin text-xs flex flex-col gap-1 pl-3 pt-2">
-          <div className="row">
+          <div className="row flex flex-row gap-2 items-center">
+            <div className="icon">
+            <IoMdAirplane />
+            </div>
+            <div className="text">
             Airplane Mode
+            </div>
           </div>
           <div className="row">
             Wi-Fi
