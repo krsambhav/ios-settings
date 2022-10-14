@@ -4,6 +4,7 @@ import { MdSignalWifi4Bar, MdVpnKey } from "react-icons/md";
 import { BsFillSimFill } from "react-icons/bs";
 import { RiHotspotFill } from "react-icons/ri";
 import { AiFillBell } from "react-icons/ai";
+import { HiSpeakerphone } from "react-icons/hi";
 
 function App() {
   return (
@@ -96,6 +97,12 @@ function App() {
                 <AiFillBell />
               </div>
               <div className="text">Notifications</div>
+            </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <HiSpeakerphone />
+              </div>
+              <div className="text">Sounds & Haptics</div>
             </div>
           </div>
         </div>
