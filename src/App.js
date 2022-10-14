@@ -50,6 +50,15 @@ function App() {
                 <div className="right">Not Connected</div>
               </div>
             </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <MdSignalWifi4Bar />
+              </div>
+              <div className="text flex flex-row gap-[150px]">
+                <div className="left">Bluetooth</div>
+                <div className="right">On</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
