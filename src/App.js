@@ -158,6 +158,12 @@ function App() {
               </div>
               <div className="text">Wallpaper</div>
             </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <MdWallpaper />
+              </div>
+              <div className="text">Siri & Search</div>
+            </div>
           </div>
         </div>
       </div>
