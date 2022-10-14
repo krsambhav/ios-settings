@@ -2,7 +2,8 @@ import "./App.css";
 import { IoMdAirplane, IoMdBluetooth } from "react-icons/io";
 import { MdSignalWifi4Bar, MdVpnKey } from "react-icons/md";
 import { BsFillSimFill } from "react-icons/bs";
-import {RiHotspotFill} from 'react-icons/ri';
+import { RiHotspotFill } from "react-icons/ri";
+import { AiFillBell } from "react-icons/ai";
 
 function App() {
   return (
@@ -35,7 +36,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="first-row w-[90%] h-[200px] bg-white mx-auto mt-3 rounded-md font-thin text-xs flex flex-col gap-1 pl-3 pt-2">
+        <div className="first-row w-[90%] pb-2 bg-white mx-auto mt-3 rounded-md font-thin text-xs flex flex-col gap-1 pl-3 pt-2">
           <div className="row flex flex-col gap-2 items-center w-[100%]">
             <div className="menu flex flex-row gap-2 items-center w-[100%]">
               <div className="icon">
@@ -80,19 +81,21 @@ function App() {
             </div>
             <div className="menu flex flex-row gap-2 items-center w-[100%]">
               <div className="icon">
-                <MdVpnKey  />
+                <MdVpnKey />
               </div>
               <div className="text flex flex-row gap-[140px]">
                 <div className="left">VPN</div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="second-row w-[90%] pb-2 bg-white mx-auto mt-3 rounded-md font-thin text-xs flex flex-col gap-1 pl-3 pt-2">
+          <div className="row flex flex-col gap-2 items-center w-[100%]">
             <div className="menu flex flex-row gap-2 items-center w-[100%]">
               <div className="icon">
-                <MdVpnKey  />
+                <AiFillBell />
               </div>
-              <div className="text flex flex-row gap-[140px]">
-                <div className="left">Notifications</div>
-              </div>
+              <div className="text">Notifications</div>
             </div>
           </div>
         </div>
