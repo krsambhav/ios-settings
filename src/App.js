@@ -2,6 +2,7 @@ import "./App.css";
 import { IoMdAirplane, IoMdBluetooth } from "react-icons/io";
 import { MdSignalWifi4Bar } from "react-icons/md";
 import { BsFillSimFill } from "react-icons/bs";
+import {RiHotspotFill} from 'react-icons/ri';
 
 function App() {
   return (
@@ -64,8 +65,17 @@ function App() {
               <div className="icon">
                 <BsFillSimFill />
               </div>
-              <div className="text flex flex-row gap-[150px]">
+              <div className="text flex flex-row gap-[140px]">
                 <div className="left">Mobile Data</div>
+                <div className="right">Jio</div>
+              </div>
+            </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <RiHotspotFill />
+              </div>
+              <div className="text flex flex-row gap-[140px]">
+                <div className="left">Personal Hotspot</div>
               </div>
             </div>
           </div>
