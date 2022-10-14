@@ -5,7 +5,7 @@ import { BsFillDisplayFill, BsFillMoonFill, BsFillSimFill, BsToggles } from "rea
 import { RiHotspotFill, RiTimerFlashFill } from "react-icons/ri";
 import { AiFillBell } from "react-icons/ai";
 import { HiSpeakerphone } from "react-icons/hi";
-import {IoSettings} from 'react-icons/io5'
+import {IoAccessibility, IoSettings} from 'react-icons/io5'
 import {FaIcons} from 'react-icons/fa';
 
 function App() {
@@ -145,6 +145,12 @@ function App() {
                 <FaIcons />
               </div>
               <div className="text">Home Screen</div>
+            </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <IoAccessibility />
+              </div>
+              <div className="text">Accessibility</div>
             </div>
           </div>
         </div>
