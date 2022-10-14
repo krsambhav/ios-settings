@@ -118,6 +118,16 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="second-row w-[90%] pb-2 bg-white mx-auto mt-3 rounded-md font-thin text-xs flex flex-col gap-1 pl-3 pt-2">
+          <div className="row flex flex-col gap-2 items-center w-[100%]">
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <AiFillBell />
+              </div>
+              <div className="text">General</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
