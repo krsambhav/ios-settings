@@ -1,6 +1,6 @@
 import "./App.css";
 import { IoMdAirplane, IoMdBluetooth } from "react-icons/io";
-import { MdSignalWifi4Bar } from "react-icons/md";
+import { MdSignalWifi4Bar, MdVpnKey } from "react-icons/md";
 import { BsFillSimFill } from "react-icons/bs";
 import {RiHotspotFill} from 'react-icons/ri';
 
@@ -80,7 +80,7 @@ function App() {
             </div>
             <div className="menu flex flex-row gap-2 items-center w-[100%]">
               <div className="icon">
-                <RiHotspotFill />
+                <MdVpnKey />
               </div>
               <div className="text flex flex-row gap-[140px]">
                 <div className="left">VPN</div>
