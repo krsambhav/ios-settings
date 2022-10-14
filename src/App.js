@@ -1,7 +1,7 @@
 import "./App.css";
 import { IoMdAirplane, IoMdBluetooth } from "react-icons/io";
 import { MdSignalWifi4Bar, MdVpnKey } from "react-icons/md";
-import { BsFillMoonFill, BsFillSimFill, BsToggles } from "react-icons/bs";
+import { BsFillDisplayFill, BsFillMoonFill, BsFillSimFill, BsToggles } from "react-icons/bs";
 import { RiHotspotFill, RiTimerFlashFill } from "react-icons/ri";
 import { AiFillBell } from "react-icons/ai";
 import { HiSpeakerphone } from "react-icons/hi";
@@ -135,7 +135,7 @@ function App() {
             </div>
             <div className="menu flex flex-row gap-2 items-center w-[100%]">
               <div className="icon">
-                <BsToggles />
+                <BsFillDisplayFill />
               </div>
               <div className="text">Display & Brightness</div>
             </div>
