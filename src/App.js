@@ -2,7 +2,7 @@ import "./App.css";
 import { IoMdAirplane, IoMdBluetooth } from "react-icons/io";
 import { MdSignalWifi4Bar, MdVpnKey } from "react-icons/md";
 import { BsFillMoonFill, BsFillSimFill } from "react-icons/bs";
-import { RiHotspotFill } from "react-icons/ri";
+import { RiHotspotFill, RiTimerFlashFill } from "react-icons/ri";
 import { AiFillBell } from "react-icons/ai";
 import { HiSpeakerphone } from "react-icons/hi";
 
@@ -109,6 +109,12 @@ function App() {
                 <BsFillMoonFill />
               </div>
               <div className="text">Focus</div>
+            </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <RiTimerFlashFill />
+              </div>
+              <div className="text">Screen Time</div>
             </div>
           </div>
         </div>
