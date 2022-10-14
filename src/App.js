@@ -64,8 +64,9 @@ function App() {
               <div className="icon">
                 <BsFillSimFill />
               </div>
-              <div className="text flex flex-row gap-[150px]">
+              <div className="text flex flex-row gap-[140px]">
                 <div className="left">Mobile Data</div>
+                <div className="right">Jio</div>
               </div>
             </div>
           </div>
