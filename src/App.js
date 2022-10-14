@@ -1,6 +1,6 @@
 import "./App.css";
 import { IoMdAirplane, IoMdBluetooth } from "react-icons/io";
-import { MdSignalWifi4Bar, MdVpnKey, MdWallpaper } from "react-icons/md";
+import { MdRecordVoiceOver, MdSignalWifi4Bar, MdVpnKey, MdWallpaper } from "react-icons/md";
 import { BsFillDisplayFill, BsFillMoonFill, BsFillSimFill, BsToggles } from "react-icons/bs";
 import { RiHotspotFill, RiTimerFlashFill } from "react-icons/ri";
 import { AiFillBell } from "react-icons/ai";
@@ -160,7 +160,7 @@ function App() {
             </div>
             <div className="menu flex flex-row gap-2 items-center w-[100%]">
               <div className="icon">
-                <MdWallpaper />
+                <MdRecordVoiceOver />
               </div>
               <div className="text">Siri & Search</div>
             </div>
