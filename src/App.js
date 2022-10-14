@@ -5,6 +5,7 @@ import { BsFillMoonFill, BsFillSimFill } from "react-icons/bs";
 import { RiHotspotFill, RiTimerFlashFill } from "react-icons/ri";
 import { AiFillBell } from "react-icons/ai";
 import { HiSpeakerphone } from "react-icons/hi";
+import {IoSettings} from 'react-icons/io5'
 
 function App() {
   return (
@@ -122,7 +123,7 @@ function App() {
           <div className="row flex flex-col gap-2 items-center w-[100%]">
             <div className="menu flex flex-row gap-2 items-center w-[100%]">
               <div className="icon">
-                <AiFillBell />
+                <IoSettings />
               </div>
               <div className="text">General</div>
             </div>
