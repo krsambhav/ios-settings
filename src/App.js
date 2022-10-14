@@ -1,5 +1,5 @@
 import "./App.css";
-import { IoMdAirplane } from "react-icons/io";
+import { IoMdAirplane, IoMdBluetooth } from "react-icons/io";
 import { MdSignalWifi4Bar } from "react-icons/md";
 
 function App() {
@@ -52,7 +52,7 @@ function App() {
             </div>
             <div className="menu flex flex-row gap-2 items-center w-[100%]">
               <div className="icon">
-                <MdSignalWifi4Bar />
+                <IoMdBluetooth />
               </div>
               <div className="text flex flex-row gap-[150px]">
                 <div className="left">Bluetooth</div>
