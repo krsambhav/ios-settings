@@ -45,7 +45,10 @@ function App() {
               <div className="icon">
                 <MdSignalWifi4Bar />
               </div>
-              <div className="text">WiFi</div>
+              <div className="text flex flex-row gap-28">
+                <div className="left">Wi-Fi</div>
+                <div className="right">Not Connected</div>
+              </div>
             </div>
           </div>
         </div>
