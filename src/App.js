@@ -230,6 +230,12 @@ function App() {
               </div>
               <div className="text">Calendar</div>
             </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <BsCalendarEventFill />
+              </div>
+              <div className="text">Notes</div>
+            </div>
           </div>
         </div>
       </div>
