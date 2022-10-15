@@ -1,6 +1,6 @@
 import "./App.css";
 import { IoIosBatteryFull, IoMdAirplane, IoMdBluetooth } from "react-icons/io";
-import { MdEmergency, MdRecordVoiceOver, MdSignalWifi4Bar, MdTagFaces, MdVpnKey, MdWallpaper } from "react-icons/md";
+import { MdEmergency, MdPrivacyTip, MdRecordVoiceOver, MdSignalWifi4Bar, MdTagFaces, MdVpnKey, MdWallpaper } from "react-icons/md";
 import { BsFillDisplayFill, BsFillMoonFill, BsFillSimFill, BsToggles } from "react-icons/bs";
 import { RiHotspotFill, RiTimerFlashFill, RiVirusLine } from "react-icons/ri";
 import { AiFillBell } from "react-icons/ai";
@@ -187,6 +187,12 @@ function App() {
                 <IoIosBatteryFull />
               </div>
               <div className="text">Battery</div>
+            </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <MdPrivacyTip />
+              </div>
+              <div className="text">Privacy & Security</div>
             </div>
           </div>
         </div>
