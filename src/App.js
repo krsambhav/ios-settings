@@ -1,5 +1,5 @@
 import "./App.css";
-import { IoIosBatteryFull, IoMdAirplane, IoMdBluetooth } from "react-icons/io";
+import { IoIosAppstore, IoIosBatteryFull, IoMdAirplane, IoMdBluetooth } from "react-icons/io";
 import { MdEmergency, MdPrivacyTip, MdRecordVoiceOver, MdSignalWifi4Bar, MdTagFaces, MdVpnKey, MdWallpaper } from "react-icons/md";
 import { BsFillDisplayFill, BsFillMoonFill, BsFillSimFill, BsToggles } from "react-icons/bs";
 import { RiHotspotFill, RiTimerFlashFill, RiVirusLine } from "react-icons/ri";
@@ -196,7 +196,7 @@ function App() {
             </div>
             <div className="menu flex flex-row gap-2 items-center w-[100%]">
               <div className="icon">
-                <MdPrivacyTip />
+                <IoIosAppstore />
               </div>
               <div className="text">App Store</div>
             </div>
