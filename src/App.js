@@ -1,6 +1,6 @@
 import "./App.css";
 import { IoIosAppstore, IoIosBatteryFull, IoIosWallet, IoMdAirplane, IoMdBluetooth, IoMdMail } from "react-icons/io";
-import { MdContacts, MdEmergency, MdPrivacyTip, MdRecordVoiceOver, MdSignalWifi4Bar, MdTagFaces, MdVpnKey, MdWallpaper } from "react-icons/md";
+import { MdContacts, MdEmergency, MdNotes, MdPrivacyTip, MdRecordVoiceOver, MdSignalWifi4Bar, MdTagFaces, MdVpnKey, MdWallpaper } from "react-icons/md";
 import { BsCalendarEventFill, BsFillDisplayFill, BsFillMoonFill, BsFillSimFill, BsToggles } from "react-icons/bs";
 import { RiHotspotFill, RiLockPasswordFill, RiTimerFlashFill, RiVirusLine } from "react-icons/ri";
 import { AiFillBell } from "react-icons/ai";
@@ -232,7 +232,7 @@ function App() {
             </div>
             <div className="menu flex flex-row gap-2 items-center w-[100%]">
               <div className="icon">
-                <BsCalendarEventFill />
+                <MdNotes />
               </div>
               <div className="text">Notes</div>
             </div>
