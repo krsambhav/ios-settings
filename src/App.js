@@ -2,7 +2,7 @@ import "./App.css";
 import { IoIosAppstore, IoIosBatteryFull, IoIosWallet, IoMdAirplane, IoMdBluetooth } from "react-icons/io";
 import { MdEmergency, MdPrivacyTip, MdRecordVoiceOver, MdSignalWifi4Bar, MdTagFaces, MdVpnKey, MdWallpaper } from "react-icons/md";
 import { BsFillDisplayFill, BsFillMoonFill, BsFillSimFill, BsToggles } from "react-icons/bs";
-import { RiHotspotFill, RiTimerFlashFill, RiVirusLine } from "react-icons/ri";
+import { RiHotspotFill, RiLockPasswordFill, RiTimerFlashFill, RiVirusLine } from "react-icons/ri";
 import { AiFillBell } from "react-icons/ai";
 import { HiSpeakerphone } from "react-icons/hi";
 import {IoAccessibility, IoSettings} from 'react-icons/io5'
@@ -208,7 +208,7 @@ function App() {
             </div>
             <div className="menu flex flex-row gap-2 items-center w-[100%]">
               <div className="icon">
-                <IoIosWallet />
+                <RiLockPasswordFill />
               </div>
               <div className="text">Passwords</div>
             </div>
