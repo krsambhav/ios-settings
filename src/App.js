@@ -218,6 +218,12 @@ function App() {
               </div>
               <div className="text">Mail</div>
             </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <IoMdMail />
+              </div>
+              <div className="text">Contacts</div>
+            </div>
           </div>
         </div>
       </div>
