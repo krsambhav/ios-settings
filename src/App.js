@@ -188,6 +188,12 @@ function App() {
               </div>
               <div className="text">Battery</div>
             </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <IoIosBatteryFull />
+              </div>
+              <div className="text">Privacy & Security</div>
+            </div>
           </div>
         </div>
       </div>
