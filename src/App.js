@@ -290,6 +290,12 @@ function App() {
               </div>
               <div className="text">Translate</div>
             </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <MdTranslate />
+              </div>
+              <div className="text">Maps</div>
+            </div>
           </div>
         </div>
       </div>
