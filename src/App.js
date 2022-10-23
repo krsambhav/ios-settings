@@ -303,6 +303,12 @@ function App() {
               </div>
               <div className="text">Compass</div>
             </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <BsCompassFill />
+              </div>
+              <div className="text">Measure</div>
+            </div>
           </div>
         </div>
       </div>
