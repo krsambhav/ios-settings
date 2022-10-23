@@ -1,6 +1,6 @@
 import "./App.css";
 import { IoIosAppstore, IoIosBatteryFull, IoIosWallet, IoMdAirplane, IoMdBluetooth, IoMdMail } from "react-icons/io";
-import { MdContacts, MdEmergency, MdNotes, MdPrivacyTip, MdRecordVoiceOver, MdSignalWifi4Bar, MdTagFaces, MdVpnKey, MdWallpaper } from "react-icons/md";
+import { MdContacts, MdEditCalendar, MdEmergency, MdNotes, MdPrivacyTip, MdRecordVoiceOver, MdSignalWifi4Bar, MdTagFaces, MdVpnKey, MdWallpaper } from "react-icons/md";
 import { BsCalendarEventFill, BsFillDisplayFill, BsFillMoonFill, BsFillSimFill, BsToggles } from "react-icons/bs";
 import { RiHotspotFill, RiLockPasswordFill, RiTimerFlashFill, RiVirusLine } from "react-icons/ri";
 import { AiFillBell } from "react-icons/ai";
@@ -11,7 +11,7 @@ import {FaIcons} from 'react-icons/fa';
 function App() {
   return (
     <div className="App w-screen h-screen flex flex-row justify-center items-center">
-      <div className="screen w-[300px] h-[600px] overflow-scroll shadow-2xl bg-[#f2f1f6]">
+      <div className="screen w-[300px] h-[600px] pb-[20px] overflow-scroll shadow-2xl bg-[#f2f1f6]">
         <div className="settings-title w-[100%] mt-8 ml-5 text-xl">
           Settings
         </div>
@@ -235,6 +235,12 @@ function App() {
                 <MdNotes />
               </div>
               <div className="text">Notes</div>
+            </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <MdEditCalendar />
+              </div>
+              <div className="text">Reminders</div>
             </div>
           </div>
         </div>
