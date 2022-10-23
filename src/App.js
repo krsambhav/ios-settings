@@ -6,7 +6,7 @@ import { RiHotspotFill, RiLockPasswordFill, RiTimerFlashFill, RiVirusLine } from
 import { AiFillBell } from "react-icons/ai";
 import { HiSpeakerphone } from "react-icons/hi";
 import {IoAccessibility, IoSettings} from 'react-icons/io5'
-import {FaIcons} from 'react-icons/fa';
+import {FaIcons, FaSafari} from 'react-icons/fa';
 
 function App() {
   return (
@@ -268,7 +268,7 @@ function App() {
             </div>
             <div className="menu flex flex-row gap-2 items-center w-[100%]">
               <div className="icon">
-                <BsCameraVideoFill />
+                <FaSafari />
               </div>
               <div className="text">Safari</div>
             </div>
