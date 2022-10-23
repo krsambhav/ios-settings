@@ -278,6 +278,12 @@ function App() {
               </div>
               <div className="text">Stocks</div>
             </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <AiOutlineStock />
+              </div>
+              <div className="text">Weather</div>
+            </div>
           </div>
         </div>
       </div>
