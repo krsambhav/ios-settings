@@ -7,6 +7,7 @@ import { AiFillBell, AiOutlineStock } from "react-icons/ai";
 import { HiSpeakerphone } from "react-icons/hi";
 import {IoAccessibility, IoSettings} from 'react-icons/io5'
 import {FaIcons, FaSafari} from 'react-icons/fa';
+import {SiGooglemaps} from 'react-icons/si';
 
 function App() {
   return (
@@ -292,7 +293,7 @@ function App() {
             </div>
             <div className="menu flex flex-row gap-2 items-center w-[100%]">
               <div className="icon">
-                <MdTranslate />
+                <SiGooglemaps />
               </div>
               <div className="text">Maps</div>
             </div>
