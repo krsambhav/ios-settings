@@ -264,7 +264,7 @@ function App() {
               <div className="icon">
                 <MdMessage />
               </div>
-              <div className="text">Added FaceTime</div>
+              <div className="text">FaceTime</div>
             </div>
           </div>
         </div>
