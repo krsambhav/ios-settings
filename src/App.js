@@ -333,6 +333,12 @@ function App() {
               </div>
               <div className="text">TV</div>
             </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <MdTv />
+              </div>
+              <div className="text">Photos</div>
+            </div>
           </div>
         </div>
       </div>
