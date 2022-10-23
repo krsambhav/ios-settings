@@ -315,6 +315,12 @@ function App() {
               </div>
               <div className="text">Shortcuts</div>
             </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <MdShortcut />
+              </div>
+              <div className="text">Health</div>
+            </div>
           </div>
         </div>
       </div>
