@@ -254,6 +254,12 @@ function App() {
               </div>
               <div className="text">Phone</div>
             </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <MdPhone />
+              </div>
+              <div className="text">Phone</div>
+            </div>
           </div>
         </div>
       </div>
