@@ -260,6 +260,12 @@ function App() {
               </div>
               <div className="text">Messages</div>
             </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <MdMessage />
+              </div>
+              <div className="text">Added FaceTime</div>
+            </div>
           </div>
         </div>
       </div>
