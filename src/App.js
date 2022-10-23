@@ -3,7 +3,7 @@ import { IoIosAppstore, IoIosBatteryFull, IoIosWallet, IoMdAirplane, IoMdBluetoo
 import { MdContacts, MdEditCalendar, MdEmergency, MdFiberManualRecord, MdMessage, MdNotes, MdPhone, MdPrivacyTip, MdRecordVoiceOver, MdSignalWifi4Bar, MdTagFaces, MdVpnKey, MdWallpaper } from "react-icons/md";
 import { BsCalendarEventFill, BsCameraVideoFill, BsFillDisplayFill, BsFillMoonFill, BsFillSimFill, BsToggles } from "react-icons/bs";
 import { RiHotspotFill, RiLockPasswordFill, RiTimerFlashFill, RiVirusLine } from "react-icons/ri";
-import { AiFillBell } from "react-icons/ai";
+import { AiFillBell, AiOutlineStock } from "react-icons/ai";
 import { HiSpeakerphone } from "react-icons/hi";
 import {IoAccessibility, IoSettings} from 'react-icons/io5'
 import {FaIcons, FaSafari} from 'react-icons/fa';
@@ -271,6 +271,12 @@ function App() {
                 <FaSafari />
               </div>
               <div className="text">Safari</div>
+            </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <AiOutlineStock />
+              </div>
+              <div className="text">Stocks</div>
             </div>
           </div>
         </div>
