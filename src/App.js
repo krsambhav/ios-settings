@@ -345,6 +345,12 @@ function App() {
               </div>
               <div className="text">Camera</div>
             </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <MdCamera />
+              </div>
+              <div className="text">Podcasts</div>
+            </div>
           </div>
         </div>
       </div>
