@@ -1,6 +1,6 @@
 import "./App.css";
 import { IoIosAppstore, IoIosBatteryFull, IoIosWallet, IoMdAirplane, IoMdBluetooth, IoMdHeart, IoMdMail } from "react-icons/io";
-import { MdCamera, MdCloud, MdCompareArrows, MdContacts, MdEditCalendar, MdEmergency, MdFiberManualRecord, MdLinearScale, MdMessage, MdMusicNote, MdNotes, MdPhone, MdPhoto, MdPrivacyTip, MdRecordVoiceOver, MdShortcut, MdSignalWifi4Bar, MdTagFaces, MdTranslate, MdTv, MdVpnKey, MdWallpaper } from "react-icons/md";
+import { MdCamera, MdCloud, MdCompareArrows, MdContacts, MdEditCalendar, MdEmergency, MdFiberManualRecord, MdLinearScale, MdMessage, MdMusicNote, MdNotes, MdPhone, MdPhoto, MdPodcasts, MdPrivacyTip, MdRecordVoiceOver, MdShortcut, MdSignalWifi4Bar, MdTagFaces, MdTranslate, MdTv, MdVpnKey, MdWallpaper } from "react-icons/md";
 import { BsCalendarEventFill, BsCameraVideoFill, BsCompassFill, BsFillDisplayFill, BsFillMoonFill, BsFillSimFill, BsToggles } from "react-icons/bs";
 import { RiHotspotFill, RiLockPasswordFill, RiTimerFlashFill, RiVirusLine } from "react-icons/ri";
 import { AiFillBell, AiOutlineStock } from "react-icons/ai";
@@ -347,7 +347,7 @@ function App() {
             </div>
             <div className="menu flex flex-row gap-2 items-center w-[100%]">
               <div className="icon">
-                <MdCamera />
+                <MdPodcasts />
               </div>
               <div className="text">Podcasts</div>
             </div>
