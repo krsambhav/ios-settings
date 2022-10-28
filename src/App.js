@@ -363,6 +363,12 @@ function App() {
               </div>
               <div className="text">TV Provider</div>
             </div>
+            <div className="menu flex flex-row gap-2 items-center w-[100%]">
+              <div className="icon">
+                <MdCable />
+              </div>
+              <div className="text">WARP</div>
+            </div>
           </div>
         </div>
       </div>
